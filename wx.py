@@ -84,3 +84,4 @@ class WXControl(object):
             hexList.append(str(hex(int(curHex, 2))))
             index=index+1
         return hexList
+        

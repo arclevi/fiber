@@ -53,8 +53,6 @@ class RS232(object):
         if temp<-100 or temp>100:
             raise Exception('Invalid temperature value')
         return self.controller.execDefaultCommand(self.commands[9],[[temp,8]])  
-            
-
 
     
 
